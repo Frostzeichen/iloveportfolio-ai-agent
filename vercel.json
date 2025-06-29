@@ -1,9 +1,0 @@
-{
-  "version": 2,
-  "name": "iloveportfolio-resume-ui",
-  "public": true,
-  "builds": [],
-  "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
-  ]
-}
