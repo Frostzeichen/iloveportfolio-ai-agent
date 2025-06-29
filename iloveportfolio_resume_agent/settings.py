@@ -25,7 +25,11 @@ SECRET_KEY = "django-insecure-zrlo=3hm73hoyd32j$@0$8-=!a_f@41@sk1^meu759i6xzpp32
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'iloveportfolio-ai-agent.onrender.com',
+    'localhost',
+    '127.0.0.1',
+]
 
 
 # Application definition
