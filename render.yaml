@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: resume-agent-api
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn iloveportfolio_resume_agent.wsgi:application
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false
